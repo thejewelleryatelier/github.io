@@ -1,681 +1,432 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <!-- Basic -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
-  <link rel="icon" href="images/favicon.png" type="image/gif" />
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <title>The Jewellery Atelier</title>
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Jewellery Atelier</title>  
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 
 </head>
-
 <body>
+  <header>
+    <div class="nav">
 
-  <!-- header section strats -->
-  <header class="header_section">
-    <div class="container-fluid">
-      <nav class="navbar navbar-expand-lg custom_nav-container">
-        <a class="navbar-brand" href="index.html">
-          <span>
-            The Jewellery Atelier
-          </span>
-        </a>
-        <div class="" id="">
+      <a href="#" class="logo">
+        <ion-icon name="ornaments"></ion-icon>
+        The Jewellery Atelier
+      </a>
 
-          <div class="custom_menu-btn">
-            <button onclick="openNav()">
-              <span class="s-1"> </span>
-              <span class="s-2"> </span>
-              <span class="s-3"> </span>
-            </button>
-            <div id="myNav" class="overlay">
-              <div class="overlay-content">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="shop.html">Shop</a>
-                <a href="blog.html">Blog</a>
-              </div>
+      <div class="box">
+        <div class="cart-count">0</div>
+        <ion-icon name="cart"  id="cart-icon" ></ion-icon>
+      </div>
+
+      <div class="cart">
+        <div class="cart-title">Cart Items</div>
+        <div class="cart-content">
+
+
+          <div class="cart-box">
+            <img src="img8.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Iced Coffee</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.65</div>
+                 <div class="cart-amt">Rs.65</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
             </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
           </div>
 
+
+          <div class="cart-box">
+            <img src="img8.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Iced Coffee</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.65</div>
+                 <div class="cart-amt">Rs.65</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+
+          <div class="cart-box">
+            <img src="img8.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Iced Coffee</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.65</div>
+                 <div class="cart-amt">Rs.65</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img8.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Iced Coffee</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.65</div>
+                 <div class="cart-amt">Rs.65</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img1.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Choco Truffle Cake</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.165</div>
+                 <div class="cart-amt">Rs.165</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img2.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Frappe</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.65</div>
+                 <div class="cart-amt">Rs.65</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img3.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Brewed Coffee</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.100</div>
+                 <div class="cart-amt">Rs.100</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          
+
+          <div class="cart-box">
+            <img src="img5.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Pineapple Pastry</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.125</div>
+                 <div class="cart-amt">Rs.125</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img6.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Mocha</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.110</div>
+                 <div class="cart-amt">Rs.110</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img7.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Espresso</div>
+              <div class="price-box">
+                <div class="cart-price">Rs.90</div>
+                 <div class="cart-amt">Rs.90</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img9.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Ferrero Rocher Pastry </div>
+              <div class="price-box">
+                <div class="cart-price">Rs.145</div>
+                 <div class="cart-amt">Rs.145</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img10.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Ferrero Rocher Pastry </div>
+              <div class="price-box">
+                <div class="cart-price">Rs.145</div>
+                 <div class="cart-amt">Rs.145</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+          <div class="cart-box">
+            <img src="img11.jpg" class="cart-img">
+            <div class="detail-box">
+              <div class="cart-food-title">Ferrero Rocher Pastry </div>
+              <div class="price-box">
+                <div class="cart-price">Rs.145</div>
+                 <div class="cart-amt">Rs.145</div>
+             </div>
+              <input type="number" value="0" class="cart-quantity">
+            </div>
+            <ion-icon name="trash" class="cart-remove"></ion-icon>
+          </div>
+
+
         </div>
-      </nav>
+        
+      <div class="total">
+        <div class="total-title">Total</div>
+        <div class="total-price">Rs.0</div>
+      </div>
+
+      <button class="btn-buy">Place Order</button>
+
+      <ion-icon name="close" id="cart-close"></ion-icon>
+
+      </div>
     </div>
   </header>
-  <!-- end header section -->
+  <div class="container">
+    <h2 class="title">Find Your Designs Here!</h2>
+    <div class="shop-content">
+      
+      <div class="food-box">
+        <div class="pic">
+            <img src="img8.jpg" class="food-img"></div>
+        <h2 class="food-title">Iced Coffee</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
 
-  <!-- slider section -->
-  <section class="slider_section position-relative">
-    <div class="slider_bg_box">
-      <img src="images/backgroundjew3.jpeg" alt="">
+      <div class="food-box">
+        <div class="pic">
+            <img src="img1.jpg" class="food-img"></div>
+        <h2 class="food-title">Choco Truffle Cake</h2>
+        <span class="food-price">Rs.165</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+      
+      <div class="food-box">
+        <div class="pic">
+            <img src="img2.jpg" class="food-img"></div>
+        <h2 class="food-title">Frappe</h2>
+        <span class="food-price">Rs.65</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic">
+            <img src="img3.jpg" class="food-img"></div>
+        <h2 class="food-title">Brewed Coffee</h2>
+        <span class="food-price">Rs.100</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img10.jpg" class="food-img"></div>
+        <h2 class="food-title">Pineapple Pastry</h2>
+        <span class="food-price">Rs.125</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic">
+            <img src="img6.jpg" class="food-img"></div>
+        <h2 class="food-title">Mocha</h2>
+        <span class="food-price">Rs.110</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic">
+            <img src="img7.jpg" class="food-img"></div>
+        <h2 class="food-title">Espresso</h2>
+        <span class="food-price">Rs.90</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+      <div class="food-box">
+        <div class="pic">
+            <img src="img9.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img11.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img12.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img13.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img14.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img15.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img16.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img17.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img18.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img19.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img20.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img21.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img22.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img23.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img24.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img25.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+  
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img26.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+      <div class="food-box">
+        <div class="pic">
+            <img src="img27.jpg" class="food-img"></div>
+        <h2 class="food-title">Ferrero Rocher Pastry</h2>
+        <span class="food-price">Rs.145</span>
+        <ion-icon name="cart" class="add-cart"></ion-icon>
+      </div>
+
+
+
+
     </div>
-    <div class="slider_bg"></div>
-    <div class="container">
-      <div class="col-md-9 col-lg-8">
-        <div class="detail-box">
-          <h1>
-            Best Jewellery
-            <br> Collection
-          </h1>
-          <p>
-            It is a long established fact that a reader will be distracted by the readable content of a page when
-            looking at its layout. The point of using Lorem
-          </p>
-          <div>
-            <a href="" class="slider-link">
-              Shop Now
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!-- end slider section -->
-
-  <!-- shop section -->
-
-  <section class="shop_section layout_padding">
-    <div class="container">
-      <div class="heading_container heading_center">
-        <h2>
-          Latest Products
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p1.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Necklace
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $200
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p2.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Necklace
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $300
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p3.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Necklace
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $110
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p4.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $45
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p5.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Ring
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $95
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p6.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Earrings
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $70
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p7.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Earrings
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $400
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-4 col-lg-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/p8.png" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Necklace
-                </h6>
-                <h6>
-                  Price
-                  <span>
-                    $450
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="btn-box">
-        <a href="">
-          View All Products
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- end shop section -->
-
-  <!-- about section -->
-
-  <section class="about_section  ">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="img-box">
-            <img src="images/background.webp" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                About Us
-              </h2>
-            </div>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti dolorem eum consequuntur ipsam repellat dolor soluta aliquid laborum, eius odit consectetur vel quasi in quidem, eveniet ab est corporis tempore.
-            </p>
-            <a href="">
-              Read More
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end about section -->
-
-  <!-- offer section -->
-
-  <section class="offer_section layout_padding">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-7 px-0">
-          <div class="box offer-box1">
-            <img src="images/o1.jpg" alt="">
-            <div class="detail-box">
-              <h2>
-                Upto 15% Off
-              </h2>
-              <a href="">
-                Shop Now
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 px-0">
-          <div class="box offer-box2">
-            <img src="images/o2.jpg" alt="">
-            <div class="detail-box">
-              <h2>
-                Upto 10% Off
-              </h2>
-              <a href="">
-                Shop Now
-              </a>
-            </div>
-          </div>
-          <div class="box offer-box3">
-            <img src="images/o3.jpg" alt="">
-            <div class="detail-box">
-              <h2>
-                Upto 20% Off
-              </h2>
-              <a href="">
-                Shop Now
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end offer section -->
-
-  <!-- blog section -->
-
-  <section class="blog_section ">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Latest From Blog
-        </h2>
-      </div>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/background2.webp" alt="">
-              <h4 class="blog_date">
-                14 <br>
-                July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Powering sustainable fashion and driving efficiencies with technology
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="box">
-            <div class="img-box">
-              <img src="images/backgroundjew2.jpeg" alt="">
-              <h4 class="blog_date">
-                15 <br>
-                July
-              </h4>
-            </div>
-            <div class="detail-box">
-              <h5>
-                Fashion blogger Roma Jani highlights the importance of confident dressing and stylish
-              </h5>
-              <p>
-                alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-              </p>
-              <a href="">
-                Read More
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end blog section -->
-
-  <!-- client section -->
-
-  <section class="client_section layout_padding">
-    <div class="container">
-      <div class="heading_container">
-        <h2>
-          Reviews
-        </h2>
-      </div>
-      <div id="carouselExample2Controls" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/profile.webp" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Andrea Martinez
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/profile.webp" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Andrea Martinez
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <div class="row">
-              <div class="col-md-11 col-lg-10 mx-auto">
-                <div class="box">
-                  <div class="img-box">
-                    <img src="images/profile.webp" alt="" />
-                  </div>
-                  <div class="detail-box">
-                    <div class="name">
-                      <h6>
-                        Andrea Martinez
-                      </h6>
-                    </div>
-                    <p>
-                      It is a long established fact that a reader will be
-                      distracted by the readable cIt is a long established fact
-                      that a reader will be distracted by the readable c
-                    </p>
-                    <i class="fa fa-quote-left" aria-hidden="true"></i>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="carousel_btn-container">
-          <a class="carousel-control-prev" href="#carouselExample2Controls" role="button" data-slide="prev">
-            <i class="fa fa-long-arrow-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-          </a>
-          <a class="carousel-control-next" href="#carouselExample2Controls" role="button" data-slide="next">
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-          </a>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end client section -->
-
-  <!-- info section -->
-  <section class="info_section layout_padding2">
-    <div class="container">
-      <div class="row info_form_social_row">
-        <div class="col-md-8 col-lg-9">
-          <div class="info_form">
-            <form action="">
-              <input type="email" placeholder="Enter your email">
-              <button>
-                <i class="fa fa-arrow-right" aria-hidden="true"></i>
-              </button>
-            </form>
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-3">
-
-          <div class="social_box">
-            <a href="">
-              <i class="fa fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="">
-              <i class="fa fa-twitter" aria-hidden="true"></i>
-            </a>
-            <a href="https://www.instagram.com/stpaulia_/">
-              <i class="fa fa-instagram" aria-hidden="true"></i>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div class="row info_main_row">
-        <div class="col-md-6 col-lg-3">
-          <div class="info_links">
-            <h4>
-              Menu
-            </h4>
-            <div class="info_links_menu">
-              <a href="index.html">Home</a>
-              <a href="about.html">About</a>
-              <a href="shop.html">Shop</a>
-              <a href="blog.html">Blog</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_insta">
-            <h4>
-              Instagram
-            </h4>
-            <div class="insta_box">
-              <div class="img-box">
-                <img src="images/p1.png" alt="">
-              </div>
-              <p>
-                our best seller
-              </p>
-            </div>
-            <div class="insta_box">
-              <div class="img-box">
-                <img src="images/p2.png" alt="">
-              </div>
-              <p>
-                trending now
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <div class="info_detail">
-            <h4>
-              About Jewellery Designer
-            </h4>
-            <p class="mb-0">
-              when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
-            </p>
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-3">
-          <h4>
-            Contact Us
-          </h4>
-          <div class="info_contact">
-            <a href="">
-              <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <span>
-                114/51 Bidhan pally patipukur,700048
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-phone" aria-hidden="true"></i>
-              <span>
-                Call +918902573654
-              </span>
-            </a>
-            <a href="">
-              <i class="fa fa-envelope"></i>
-              <span>
-                yashita85das@gmail.com
-              </span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end info_section -->
-
-
-  <!-- footer section -->
-  <footer class="footer_section">
-    <div class="container">
-      <p>
-        &copy; <span id="displayYear"></span> All Rights Reserved By
-        <a href="https://html.design/">Sumit Ghosh</a>
-      </p>
-    </div>
-  </footer>
-  <!-- footer section -->
-
-
-  <!-- jQery -->
-  <script src="js/jquery-3.4.1.min.js"></script>
-  <!-- bootstrap js -->
-  <script src="js/bootstrap.js"></script>
-  <!-- custom js -->
-  <script src="js/custom.js"></script>
-
+  </div>
+  <script src="script.js"></script>
 </body>
-
 </html>
